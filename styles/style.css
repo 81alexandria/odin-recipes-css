@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    max-width: 400px;
+    margin: 10px;
+    padding: 5px;
+    border: gray 1px solid;
+    line-height: 30px;
+    text-align: justify;
+    }
+
+
+.card-title {
+    margin: 20px 0px 20px 20px;
+    color: brown;
+}
+
+.card p {
+    padding: 10px 20px 10px 20px;
+}
+
+.card img {
+    max-width: 400px;
+}
+
+.card-button {
+    margin: 20px 0px 20px 20px;
+    padding: 10px 40px 10px 40px;
+    background-color: brown;
+    border: 0;
+    font-weight: 600;
+    
+}
+
+.card-button a {
+    text-decoration: none;
+    color: wheat;
+}
