@@ -45,3 +45,43 @@
     text-decoration: none;
     color: wheat;
 }
+
+.recipe {
+    margin: 0 10px 0 0;
+    padding: 0 20px 0 20px;
+    text-align: justify;
+}
+
+.recipe h1 {
+    margin: 20px 0 20px 0;
+    color: brown
+
+}
+.recipe, .recipe img {
+    max-width: 600px;
+}
+
+
+.recipe h2 {
+    color: brown;
+    margin-top: 20px;
+}
+
+.recipe p {
+    margin: 10px 0 10px 0;
+}
+
+.recipe ul {
+    list-style-type: none;
+    line-height: 200%;
+}
+
+.recipe ol li {
+    line-height: 200%;
+    margin-left: 20px;
+    
+}
+
+li::marker {
+    color: red;
+  }
